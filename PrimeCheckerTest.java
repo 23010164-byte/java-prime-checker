@@ -17,4 +17,13 @@ public class PrimeCheckerTest {
     void test3() {
         assertFalse(PrimeChecker.isPrime(8));
     }
+@Test
+void test4() {
+    assertTrue(PrimeChecker.isPrime(2));
+}
+
+@Test
+void test5() {
+    assertFalse(PrimeChecker.isPrime(9));
+}
 }
